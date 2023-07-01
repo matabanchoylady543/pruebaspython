@@ -1,5 +1,5 @@
 import pytest
-from prueba_unitaria import numeros_amigos, sum, main
+from prueba_u import numeros_amigos, sum, main
 
 def test_sum():
     assert sum(220,284)==504
